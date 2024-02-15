@@ -1,3 +1,5 @@
+const apiKey = ENV.API_KEY;
+
 // API de Openweathermaps
 
 let lat = 42.88;
@@ -8,9 +10,6 @@ function actualizaTempo(lat,lon){
 /*una vez creado, sustituimos la direccion por:ENV.API_KEY como esta mas abajo
 const apiKey = "a83cd5db22f6b778c1c4c67eef3578bb";
 */
-// const apiKey = ENV.API_KEY;
-const apiKey = API_KEY;
-
 
 const units = "metric";
 
